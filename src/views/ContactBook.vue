@@ -42,7 +42,7 @@
             params: { id: activeContact._id },
           }"
         >
-          <span class="mt-2 badge badge-warning">
+          <span class="mt-2 badge bg-warning text-dark">
             <i class="fas fa-edit"></i> Hiệu chỉnh</span
           >
         </router-link>
@@ -131,7 +131,7 @@ export default {
 };
 </script>
 <style>
-.page {
+.page { 
   text-align: left;
   max-width: 750px;
 }
